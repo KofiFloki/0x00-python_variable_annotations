@@ -2,6 +2,7 @@
 """
 This module provides variables with type annotations.
 
+
 The variables are:
     - a: an integer with the value 1
     - pi: a float with the value 3.14
