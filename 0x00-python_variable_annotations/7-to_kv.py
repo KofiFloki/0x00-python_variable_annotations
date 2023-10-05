@@ -1,19 +1,15 @@
 #!/usr/bin/env python3
-""""
-This is a module that provides a function for summing list values.
 """
-from typing import Union, List
+This module provides variables with type annotations.
 
+The variables are:
+    - a: an integer with the value 1
+    - pi: a float with the value 3.14
+    - i_understand_annotations: a boolean with the value True
+    - school: a string with the value 'Holberton'
+"""
 
-def sum_mixed_list(mxd_lst: List[Union[int, float]]) -> float:
-    """
-    This function computes the sum of a list of integers and floats, and
-        returns the result as a float.
-
-    Parameters:
-    mxd_lst (List[Union[int, float]]): The list of integers and floats to sum.
-
-    Returns:
-    float: The sum of the elements in mxd_lst.
-    """
-    return sum(mxd_lst)i
+a: int = 1
+pi: float = 3.14
+i_understand_annotations: bool = True
+school: str = 'Holberton'i
