@@ -9,7 +9,6 @@ The variables are:
 - i_understand_annotations: a boolean with the value True
 - school: a string with the value 'Holberton'
 """
-
 a: int = 1
 pi: float = 3.1
 i_understand_annotations: bool = True
